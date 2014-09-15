@@ -11,8 +11,9 @@ namespace CardsLib
         public event LastCardDrawnHandler LastCardDrawn;
         private Cards cards = new Cards();
         private Random rnd1 = new Random();
-
+        private int myval;
         private int my Val1;
+        private int newvalue;
 
         //Додатковий конструктор для клонування колоди
         private Deak(Cards newCards)
