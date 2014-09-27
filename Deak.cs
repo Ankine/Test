@@ -8,7 +8,10 @@ namespace CardsLib
     public delegate void LastCardDrawnHandler(Deak currentDeck);
     public class Deak : ICloneable
     {
+
 	in test1 hfskdjfhgsdhfg
+	in test2 asdf,h as,djfhasdf
+
         public event LastCardDrawnHandler LastCardDrawn;
         private Cards cards = new Cards();
         private Random rnd1 = new Random();
