@@ -12,6 +12,7 @@ namespace CardsLib
 	in test1 hfskdjfhgsdhfg
 	in test2 asdf,h as,djfhasdf
         In Sel
+        In Master
         public event LastCardDrawnHandler LastCardDrawn;
         private Cards cards = new Cards();
         private Random rnd1 = new Random();
