@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +13,7 @@ namespace CardsLib
 	in test2 asdf,h as,djfhasdf
         In Sel
         In Master
+pull TEST
         public event LastCardDrawnHandler LastCardDrawn;
         private Cards cards = new Cards();
         private Random rnd1 = new Random();
